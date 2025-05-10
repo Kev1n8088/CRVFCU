@@ -23792,7 +23792,7 @@
 		)
 		(uuid "7377918d-0c3a-4421-8518-3eca64fbd800")
 	)
-	(label "PYO2"
+	(label "VPYRO"
 		(at 405.13 379.73 0)
 		(effects
 			(font
@@ -23882,7 +23882,7 @@
 		)
 		(uuid "7e8c1105-c655-43f8-b5a4-ad373bc84264")
 	)
-	(label "VPYRO"
+	(label "PYO1"
 		(at 406.4 377.19 0)
 		(effects
 			(font
@@ -24097,7 +24097,7 @@
 		)
 		(uuid "9e4c94f6-b854-4c9e-8075-8d182028cb83")
 	)
-	(label "VPYRO"
+	(label "PYO3"
 		(at 406.4 387.35 0)
 		(effects
 			(font
@@ -24267,7 +24267,7 @@
 		)
 		(uuid "ae98e370-d752-428b-a6ea-65497f2219f7")
 	)
-	(label "PYO3"
+	(label "PYO2"
 		(at 405.13 384.81 0)
 		(effects
 			(font
@@ -24327,7 +24327,7 @@
 		)
 		(uuid "b2e0a856-cfef-482d-8e01-d248aefef039")
 	)
-	(label "PYO0"
+	(label "VPYRO"
 		(at 405.13 389.89 0)
 		(effects
 			(font
@@ -24630,7 +24630,7 @@
 		)
 		(uuid "e9ffd723-42b9-4459-974e-597c5459b7c5")
 	)
-	(label "PYO1"
+	(label "PYO0"
 		(at 405.13 374.65 0)
 		(effects
 			(font
