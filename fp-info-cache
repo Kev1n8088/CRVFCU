@@ -1,4 +1,4 @@
-25222931822527988
+25222931918364252
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -58037,19 +58037,19 @@ PQFN50P300X250X97-14N
 14
 14
 FCU2025Lib
+PowerPak1212-8-Dual
+
+SI7232DN-T1-GE3 
+0
+6
+6
+FCU2025Lib
 RP2350A_QFN-60_EP_7.75x7.75_Pitch0.4mm
 
 
 0
 86
 61
-FCU2025Lib
-SQJ500AEP-T1_GE3_VIS
-
-SI7232DN-T1-GE3 
-0
-6
-6
 Ferrite_THT
 LairdTech_28C0236-0JW-10
 Ferrite, vertical, LairdTech 28C0236-0JW-10, https://assets.lairdtech.com/home/brandworld/files/28C0236-0JW-10.pdf, JW Miller core https://www.bourns.com/products/magnetic-products/j.w.-miller-through-hole-ferrite-beads-emi-filters
