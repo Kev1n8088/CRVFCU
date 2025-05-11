@@ -13850,350 +13850,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Switch:SW_Nidec_CAS-120A1"
-			(pin_names
-				(offset 1)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "SW"
-				(at 0 4.318 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SW_Nidec_CAS-120A1"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Button_Switch_SMD:Nidec_Copal_CAS-120A"
-				(at 0 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.nidec-components.com/e/catalog/switch/cas.pdf"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Switch, single pole double throw"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "switch single-pole double-throw spdt ON-ON"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "*Nidec?Copal?CAS?120A*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SW_Nidec_CAS-120A1_0_1"
-				(circle
-					(center -2.032 0)
-					(radius 0.4572)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.651 0.254) (xy 1.651 2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 2.54)
-					(radius 0.4572)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 -2.54)
-					(radius 0.4572)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SW_Nidec_CAS-120A1_1_1"
-				(rectangle
-					(start -3.175 3.81)
-					(end 3.175 -3.81)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 2.54 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Switch:SW_Omron_B3FS"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "SW"
-				(at 1.27 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "SW_Omron_B3FS"
-				(at 0 -1.524 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3fs.pdf"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Omron B3FS 6x6mm single pole normally-open tactile switch"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "switch normally-open pushbutton push-button"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SW*Omron*B3FS*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SW_Omron_B3FS_0_1"
-				(circle
-					(center -2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.27) (xy 0 3.048)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 1.27) (xy -2.54 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Transistor_BJT:BC818"
 			(pin_names
 				(offset 0)
@@ -16134,6 +15790,12 @@
 		(uuid "d6445726-47e1-4d4b-a8eb-ee5f91c22c94")
 	)
 	(junction
+		(at 154.94 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "da1cbbad-3bd1-472d-9eea-13b9d7aa213d")
+	)
+	(junction
 		(at 77.47 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -16236,6 +15898,12 @@
 		(uuid "f4dc5805-ccc3-4beb-9057-20aaf1b151ad")
 	)
 	(junction
+		(at 161.29 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f4f08097-f648-41ff-aa3a-ba67d49ef292")
+	)
+	(junction
 		(at 27.94 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -16246,12 +15914,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f5d76440-3729-428a-b281-f5b8ba918620")
-	)
-	(junction
-		(at 154.94 36.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f680c906-f999-4061-bee0-b44a85c6f4be")
 	)
 	(junction
 		(at 302.26 248.92)
@@ -17043,6 +16705,16 @@
 	)
 	(wire
 		(pts
+			(xy 128.27 60.96) (xy 133.35 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "182ac374-c50a-4c55-9736-6c052ed9caa7")
+	)
+	(wire
+		(pts
 			(xy 245.11 46.99) (xy 242.57 46.99)
 		)
 		(stroke
@@ -17733,6 +17405,16 @@
 	)
 	(wire
 		(pts
+			(xy 135.89 60.96) (xy 161.29 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c66ccc1-c233-405c-be5a-e3319c0b06cc")
+	)
+	(wire
+		(pts
 			(xy 149.86 241.3) (xy 149.86 243.84)
 		)
 		(stroke
@@ -17973,16 +17655,6 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 63.5) (xy 157.48 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "396305ea-239f-44b4-b825-5774f924b722")
-	)
-	(wire
-		(pts
 			(xy 323.85 344.17) (xy 330.2 344.17)
 		)
 		(stroke
@@ -18073,7 +17745,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 66.04) (xy 140.97 66.04)
+			(xy 140.97 66.04) (xy 149.86 66.04)
 		)
 		(stroke
 			(width 0)
@@ -18763,7 +18435,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 63.5) (xy 166.37 63.5)
+			(xy 157.48 63.5) (xy 161.29 63.5)
 		)
 		(stroke
 			(width 0)
@@ -18900,16 +18572,6 @@
 			(type default)
 		)
 		(uuid "5ae583b5-f7a8-428b-9d3c-e4ae2e5aca19")
-	)
-	(wire
-		(pts
-			(xy 139.7 60.96) (xy 146.05 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5ae970bf-ecce-46e3-8162-00815aa7c078")
 	)
 	(wire
 		(pts
@@ -19150,6 +18812,16 @@
 			(type default)
 		)
 		(uuid "644ddaf5-818f-437c-8d87-bfba02b180d7")
+	)
+	(wire
+		(pts
+			(xy 161.29 60.96) (xy 161.29 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "645247d1-9494-4dd6-9b4d-14a4570dc814")
 	)
 	(wire
 		(pts
@@ -20110,6 +19782,16 @@
 			(type default)
 		)
 		(uuid "8783e34d-e3a8-45d6-b17c-74c753570140")
+	)
+	(wire
+		(pts
+			(xy 161.29 63.5) (xy 166.37 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88024e28-9b0a-4fb9-825f-ea98ed9cb52b")
 	)
 	(wire
 		(pts
@@ -23223,7 +22905,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 36.83) (xy 143.51 36.83)
+			(xy 143.51 36.83) (xy 148.59 36.83)
 		)
 		(stroke
 			(width 0)
@@ -23323,6 +23005,16 @@
 	)
 	(wire
 		(pts
+			(xy 151.13 36.83) (xy 154.94 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9862bc7-017a-4c1f-ad23-1af789f9d59b")
+	)
+	(wire
+		(pts
 			(xy 384.81 147.32) (xy 384.81 148.59)
 		)
 		(stroke
@@ -23330,6 +23022,16 @@
 			(type default)
 		)
 		(uuid "f9bca353-3309-460c-8631-387a8002add6")
+	)
+	(wire
+		(pts
+			(xy 149.86 66.04) (xy 149.86 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbd33ca9-2097-4e22-bbcb-ee4d8c8af8a2")
 	)
 	(wire
 		(pts
@@ -31580,6 +31282,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 133.35 55.88 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "46ba1bea-2d71-4c98-87a6-f89e41f90300")
+		(property "Reference" "J5"
+			(at 138.43 54.6099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 138.43 57.1499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 133.35 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 133.35 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 133.35 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "83eef675-ae8e-4cc1-b420-3b1e0ed75f47")
+		)
+		(pin "2"
+			(uuid "7d241d22-cd70-4247-b456-7be68d0f55db")
+		)
+		(instances
+			(project "CRVFCU"
+				(path "/ad8e65f5-b3fb-4c85-9d9e-17b5feb23144"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 344.17 289.56 0)
 		(unit 1)
@@ -31644,77 +31416,6 @@
 			(project "CRVFCU"
 				(path "/ad8e65f5-b3fb-4c85-9d9e-17b5feb23144"
 					(reference "R45")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Nidec_CAS-120A1")
-		(at 151.13 63.5 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "46e80ac7-fca5-423d-8c14-d0b8efd86808")
-		(property "Reference" "SW2"
-			(at 151.13 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Nidec_CAS-120A1"
-			(at 151.13 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Button_Switch_SMD:Nidec_Copal_CAS-120A"
-			(at 151.13 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.nidec-components.com/e/catalog/switch/cas.pdf"
-			(at 151.13 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Switch, single pole double throw"
-			(at 151.13 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "6dfba513-e89f-4767-9be6-c9b3c5b79a52")
-		)
-		(pin "1"
-			(uuid "5301b730-2326-4ec2-b474-6578383bd263")
-		)
-		(pin "3"
-			(uuid "9e08493c-ff0b-4772-aea0-90c2613c73d6")
-		)
-		(instances
-			(project ""
-				(path "/ad8e65f5-b3fb-4c85-9d9e-17b5feb23144"
-					(reference "SW2")
 					(unit 1)
 				)
 			)
@@ -31860,7 +31561,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 139.7 60.96 0)
+		(at 128.27 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -31868,7 +31569,7 @@
 		(dnp no)
 		(uuid "487b26ae-ee07-40ff-ab2c-fbc96f95f046")
 		(property "Reference" "#PWR045"
-			(at 139.7 64.77 0)
+			(at 128.27 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31877,7 +31578,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 135.89 59.69 0)
+			(at 124.46 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31885,7 +31586,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 139.7 60.96 0)
+			(at 128.27 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31894,7 +31595,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 139.7 60.96 0)
+			(at 128.27 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31903,7 +31604,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 139.7 60.96 0)
+			(at 128.27 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33020,6 +32721,76 @@
 			(project ""
 				(path "/ad8e65f5-b3fb-4c85-9d9e-17b5feb23144"
 					(reference "BZ1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 148.59 31.75 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5e60ba23-2a35-4f3d-860b-3ad47c3a3c56")
+		(property "Reference" "J2"
+			(at 153.67 30.4799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 153.67 33.0199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 148.59 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 148.59 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 148.59 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "363f9caf-7328-441c-a11a-77544e913beb")
+		)
+		(pin "2"
+			(uuid "ff0d3fe5-57c6-4409-8762-6aad8ff6b437")
+		)
+		(instances
+			(project ""
+				(path "/ad8e65f5-b3fb-4c85-9d9e-17b5feb23144"
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -40406,74 +40177,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Omron_B3FS")
-		(at 149.86 36.83 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b07e9f2d-2fdf-47df-bba1-820380f44b7e")
-		(property "Reference" "SW1"
-			(at 149.86 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Omron_B3FS"
-			(at 149.86 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_FSMSM"
-			(at 149.86 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3fs.pdf"
-			(at 149.86 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Omron B3FS 6x6mm single pole normally-open tactile switch"
-			(at 149.86 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9efe30ec-cf4a-4626-a142-c37cfc495d97")
-		)
-		(pin "2"
-			(uuid "c589531a-c1dc-489a-a886-fed3b761e09f")
-		)
-		(instances
-			(project ""
-				(path "/ad8e65f5-b3fb-4c85-9d9e-17b5feb23144"
-					(reference "SW1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 39.37 55.88 0)
 		(unit 1)
@@ -43006,7 +42709,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 161.29 63.5 270)
+		(at 153.67 63.5 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -43015,7 +42718,7 @@
 		(fields_autoplaced yes)
 		(uuid "c85f5eb2-551f-49f8-add2-06786bd2bb8b")
 		(property "Reference" "R6"
-			(at 161.29 57.15 90)
+			(at 153.67 57.15 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43023,7 +42726,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 161.29 59.69 90)
+			(at 153.67 59.69 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43031,7 +42734,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 161.29 61.722 90)
+			(at 153.67 61.722 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43040,7 +42743,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 161.29 63.5 0)
+			(at 153.67 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43049,7 +42752,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 161.29 63.5 0)
+			(at 153.67 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
