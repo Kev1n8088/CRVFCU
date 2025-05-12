@@ -28303,7 +28303,7 @@
 				)
 			)
 		)
-		(property "Value" "32.768khz"
+		(property "Value" "ECS-.327-6-34QCS-TR"
 			(at 304.8 166.37 0)
 			(effects
 				(font
@@ -33308,7 +33308,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "6pF"
+		(property "Value" "4pF"
 			(at 316.23 179.0699 0)
 			(effects
 				(font
@@ -36425,7 +36425,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10pF"
+		(property "Value" "12pF"
 			(at 317.5 241.2999 0)
 			(effects
 				(font
@@ -37952,7 +37952,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "6pF"
+		(property "Value" "4pF"
 			(at 300.99 179.0699 0)
 			(effects
 				(font
@@ -40130,7 +40130,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10pF"
+		(property "Value" "12pF"
 			(at 292.1 241.2999 0)
 			(effects
 				(font
@@ -47383,18 +47383,17 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "fa12cbe6-1a56-473a-9258-0ca1179722f9")
 		(property "Reference" "Y2"
-			(at 313.69 229.7998 0)
+			(at 305.308 218.948 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "Crystal_GND24"
-			(at 313.69 232.3398 0)
+		(property "Value" "ECS-250-10-33B-CKY-TR3"
+			(at 317.754 222.504 0)
 			(effects
 				(font
 					(size 1.27 1.27)
