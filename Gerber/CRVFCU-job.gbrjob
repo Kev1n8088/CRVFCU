@@ -5,7 +5,7 @@
       "Application": "Pcbnew",
       "Version": "9.0.1"
     },
-    "CreationDate": "2025-05-12T23:36:45-04:00"
+    "CreationDate": "2025-05-13T00:09:27-04:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -109,7 +109,7 @@
     },
     {
       "Type": "SolderMask",
-      "Color": "Black",
+      "Color": "R80G0B80",
       "Thickness": 0.01,
       "Name": "Top Solder Mask"
     },
@@ -156,7 +156,7 @@
     },
     {
       "Type": "SolderMask",
-      "Color": "Black",
+      "Color": "R80G0B80",
       "Thickness": 0.01,
       "Name": "Bottom Solder Mask"
     },
