@@ -1,4 +1,4 @@
-25235161753457797
+25236913480462205
 AdafruitBreakouts
 BMP390_Breakout_Footprint
 
@@ -58085,6 +58085,13 @@ RP2350A_QFN-60_EP_7.75x7.75_Pitch0.4mm
 0
 86
 61
+FCU2025Lib
+SCH16TK011
+SCH16T-K01
+Undefined or Miscellaneous
+0
+24
+24
 FCU2025Lib
 Teensy41
 
