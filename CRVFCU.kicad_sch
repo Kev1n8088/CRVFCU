@@ -25791,7 +25791,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "JST_GH_SM02B"
+		(property "Value" "JST_PH_SM02B"
 			(at 383.54 298.4499 0)
 			(effects
 				(font
@@ -25800,7 +25800,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_GH_SM02B-GHS-TB_1x02-1MP_P1.25mm_Horizontal"
+		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical"
 			(at 381 295.91 0)
 			(effects
 				(font
